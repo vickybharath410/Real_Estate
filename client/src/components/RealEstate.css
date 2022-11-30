@@ -1,0 +1,474 @@
+/* Property Listing Page */
+.property{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow:5px 0px 0px 5px gainsboro;
+    background-color: white;
+   
+}
+.asideLeft{
+    width: 15%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.asideRight{
+    width: 80%;
+    height: 7%;
+}
+.logo{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 58%;
+}
+/* #logid{
+
+} */
+
+.data{
+    margin-top: 50px;
+    width: 90%;
+    height: 300px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.icons{
+    margin-right: 30px;
+}
+.iconsEye{
+    margin-right: 17px;
+}
+.open{
+    color: blue;
+}
+.iconsUsers{
+    margin-right: 5px;
+}
+/* .username{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+#logoutBtn {
+    border: 2px solid black;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    background-color: aquamarine;
+
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+#logoutBtn:hover {
+    background-color: aqua;
+    color: black;
+}
+.header{
+    margin: 0 10px 0 10px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid aquamarine;
+}
+.userName{
+    width: 300px;
+    /* height: 15%; */
+    border: none;
+}
+.operations{
+    position: sticky;
+    top: 0px;
+    background:white;
+    margin: 0 10px 0 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#PPDID{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 50px 50px;
+    box-shadow:5px 0px 0px 5px ghostwhite;
+    text-align: center;
+}
+.searchinput{
+    height: 50px;
+    border: none;
+    text-align: center;
+    border-radius: 50px 0 0 50px;
+    border-right: 2px solid rgb(167, 162, 162);
+}
+.searchbtn{
+    height: 50px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    font-size: small;
+    border-radius: 0 50px 50px 0;
+}
+
+.searchinput:focus{
+    outline: none;
+  box-shadow: none;
+  text-align: center;
+}
+.addPropertybtn{
+    width: 250px;
+    height: 50px;
+    font-size: x-large;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px 50px;
+    box-shadow:5px 0px 0px 5px ghostwhite;
+    text-align: center;
+    background-color: rgb(0, 255, 242);
+}
+
+.property-table{
+    margin-left: 10px;
+    width: 98%;
+    overflow-y: scroll;
+    box-shadow: 5px 0px 0px 5px ghostwhite;
+}
+
+.tableHeader{
+    position: sticky;
+    top: 100px;
+    background:white;
+    height: 50px;
+    color: rgb(0, 98, 255);
+    box-shadow: 5px 0px 0px 5px ghostwhite;
+}
+.tableData{
+    height: 50px;
+    box-shadow: 5px 0px 0px 5px ghostwhite;
+}
+
+.noList{
+    padding-top: 100px;
+}
+.imagetag{
+    width: 50px;
+}
+
+.edit{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: center;
+}
+.iconsEdit{
+    margin-right: 10px;
+    /* width: 20px; */
+}
+.unSoldbtn{
+    border: none;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    background-color: aquamarine;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+.unSoldbtn:hover {
+    background-color: aqua;
+    color: black;
+}
+
+
+/* Log in and sign up */
+.login{
+    margin: auto auto;
+    margin-top: 70px;
+    height: 473px;
+    width: 464px;
+    background-color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+ .extra-info {
+     text-align: center;
+ }
+ #link{
+    margin-top: 20px;
+ }
+#logo-signup{
+    margin-top: 0px;
+    width: 100px;
+        height: 100px;
+        border-radius: 58%;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 58%;
+}
+.login-items{
+    margin-top: 30px;
+    height: 35px;
+    background-color: #FFFFFF;
+    width: 385px;
+    border-radius: 5px;
+}
+
+.error{
+    color: red;
+}
+#signup{
+    color: #4C57B6;
+    text-decoration: none;
+    font-weight: bold;
+}
+#signin,#signup-btn{
+    background-color:#4C57B6;
+    width: 395px;
+    color: white;
+}
+#credential-signin{
+    /* margin-top:0; */
+    color: #000000;
+    font-size: small;
+}
+.extra-info,#extra-login{
+    margin-top: 30px;
+}
+.signup-items{
+      margin-top: 25px;
+        height: 30px;
+        background-color: #FFFFFF;
+        width: 385px;
+        border-radius: 5px;
+}
+.signup-items{
+    /* margin-top: 5px; */
+        height: 30px;
+        background-color: #FFFFFF;
+        width: 385px;
+        border-radius: 5px;
+}
+#signup-btn{
+    width: 390px;
+}
+.confirmSignin{
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 360px) {
+    .login {
+        width: 300px;
+    }
+   .extra-info{
+    margin: auto auto;
+   }
+}
+
+/***************PropertyNav.js ****************/
+
+/****************BasicInfo.js, PropertyDetails.js, GeneralInfo.js, LocationInfo.js ********************/
+/* Add New Property CSS */
+.card{
+    margin: 5% 10%;
+    width: 75%;
+    height: 650px;
+    /* box-shadow: 10px 14px 70px rgba(0,0,0,0.03); */
+    box-shadow: 10px 14px 70px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+    border-radius: 20px; 
+    text-align: left;
+    overflow-y: scroll;
+}
+
+.formSection {
+    
+    display: grid;
+    gap: 50px 30px;
+    grid-template-columns: auto auto;
+    padding: 40px 60px;
+  }
+
+
+ .formInput input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* display: inline-block; */
+    box-sizing: border-box;
+    border: 1px solid #C3C3C3;
+    border-radius: 8px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #7D7D7D;
+  }
+
+  .formInput label{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #7D7D7D;
+  }
+
+  .formInput button{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    box-shadow: 0px 13px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 500px;
+    padding: 10px 30px;
+  }
+
+  .cancelBtn{
+    border: none;
+    float: right;
+    background: #6AB4F8;
+  }
+  .saveBtn{
+    border: none;
+    background: #4C57B6;
+  }
+
+  /****************GeneralInfo.js ****************/
+  .formInput #camera{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .cameraimg{
+    align-self: center;
+    background: #6AB4F8;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.13);
+    padding: 20px 20px 20px 20px;
+    border-radius: 40%;
+    margin-right: 10px;
+  }
+  
+  .eclipseCamera{
+    background: #6AB4F8;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.13);
+    padding: 30px 28px 30px 28px;
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+
+  .cameraText{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #7D7D7D;
+    /* top: 0px; 
+    right: 0px; */
+    /* height:80px; */
+    
+  }
+
+  /* Add Property navbar */
+
+
+  .addProperty{
+    width: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+  }
+  .addhead{
+    margin-left: 10px;
+    width: fit-content;
+    float: left;
+    color: #AAAAAA;
+  }
+  .navbar {
+      margin-left: 10%;
+      width: 70%;
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background-color: white;
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 25px;
+      color: #AAAAAA;
+      border-radius: 50px;
+      box-shadow: 10px 14px 70px rgba(0, 0, 0, 0.15);
+  }
+  .navForm{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    background-color: aqua;
+  }
+  .num {
+      background-color: aquamarine;
+      cursor: pointer;
+      box-sizing: border-box;
+      border-radius: 100%;
+      width: 12%;
+      font-family: 'Source Sans Pro';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 25px;
+      background-color: #E1F9F4;
+      color: #A6A6A6;
+  }
+
